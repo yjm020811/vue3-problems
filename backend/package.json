@@ -1,0 +1,19 @@
+{
+  "name": "backend-service",
+  "version": "1.0.0",
+  "description": "File upload backend service using Koa",
+  "main": "app.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "dependencies": {
+    "fs-extra": "^11.1.1",
+    "koa": "^2.14.1",
+    "koa-body": "^4.2.0",
+    "koa-router": "^10.1.1",
+    "koa2-cors": "^2.0.6",
+    "path": "^0.12.7"
+  },
+  "author": "",
+  "license": "ISC"
+}
