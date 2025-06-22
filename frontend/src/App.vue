@@ -4,6 +4,7 @@ import screencut from "./components/screencut.vue";
 import File from "./components/file.vue";
 import bigFile from "./components/bigFile.vue";
 import flexCards from "./components/flexCards.vue";
+import Loading from "./components/loading.vue";
 </script>
 
 <template>
@@ -16,6 +17,8 @@ import flexCards from "./components/flexCards.vue";
   <bigFile />
   <hr />
   <flexCards />
+  <hr>
+  <Loading />
 </template>
 
 <style scoped></style>
